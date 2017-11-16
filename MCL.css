@@ -20,7 +20,8 @@
     grid-template-rows: 100px 100px 100px 100px;
 }
 .item-header {
-    background-color: aqua;
+    background-color: navy;
+    color: yellow;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -29,8 +30,8 @@
 
 section {
     background-color:#005493;
-    grid-column: 1;
-    grid-row: 2;
+    grid-column: 3;
+    grid-row: 3;
 }
 
 article {
