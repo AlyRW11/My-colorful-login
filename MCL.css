@@ -30,33 +30,5 @@ section {
     grid-row: 2;
 }
 
-.item-main {
-    background-color: blue;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    align-self: center;
-}
-.item-footer-left {
-    background-color: rgb(218, 118, 136);
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
-}
-.item-footer-center{
-    background-color: gray;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-.item-footer-right{
-    background-color: purple;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
+
 }
