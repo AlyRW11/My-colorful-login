@@ -1,8 +1,10 @@
 .container {
     background-color: #22397B;
+    color: whitesmoke
 }
 
 @media only screen and (max-width : 320px){
+
 }
 
 @media only screen and (min-width : 320px) and (max-width: 480px){  
@@ -11,10 +13,11 @@
 @media only screen and (min-width : 500px){   
 
 .container {
+    background-color: pink;
     color:whitesmoke;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
 }
 .item-header {
     background-color: aqua;
@@ -30,5 +33,25 @@ section {
     grid-row: 2;
 }
 
+article {
+    background-color: rgb(218, 118, 136);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item-footer-center{
+    background-color: gray;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.item-footer-right{
+    background-color: purple;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
 }
