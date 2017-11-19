@@ -11,17 +11,12 @@ footer {
     min-height: 20px;
 }
 body{
-    margin:30px;
-    padding:10px;
-    background-color: hsl(204, 4%, 25%);
-    color: white;
-    font-family:sans-serif;
-  }
-.left{
-
-    background-color: hsl(204, 12%, 75%);
-    background-image: -webkit-linear-gradient(30deg, pink 50%, hsl(204, 12%, 75%) 50%);
-    min-height: 200px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aee6d6+0,75cebe+17,46c9b1+33,009996+57,0caab2+83,74ecf7+100 */
+background: #aee6d6; /* Old browsers */
+background: -moz-linear-gradient(45deg, #aee6d6 0%, #75cebe 17%, #46c9b1 33%, #009996 57%, #0caab2 83%, #74ecf7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', endColorstr='#74ecf7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
 
 
