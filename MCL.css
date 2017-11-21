@@ -1,17 +1,16 @@
-* { box-sizing: border-box }
-
 header {
-    background-color:hsl(204, 12%, 75%);
-    color: pink;
+    color:white;
     min-height: 60px;
+    font-family: Tahoma, sans-serif;
+    font-size: 11pt;
+    display: grid;
+    
   }
 footer {
-    background-color:hsl(204, 12%, 75%);
-    color: pink;
+    color:white;
     min-height: 20px;
 }
 body{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aee6d6+0,75cebe+17,46c9b1+33,009996+57,0caab2+83,74ecf7+100 */
 background: #aee6d6; /* Old browsers */
 background: -moz-linear-gradient(45deg, #aee6d6 0%, #75cebe 17%, #46c9b1 33%, #009996 57%, #0caab2 83%, #74ecf7 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%); /* Chrome10-25,Safari5.1-6 */
