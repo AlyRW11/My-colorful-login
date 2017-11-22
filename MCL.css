@@ -18,10 +18,7 @@ background: linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', endColorstr='#74ecf7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
 
-.container {
-  grid-template-columns: 100px, 100px, 100px;
-  grid-template-rows: 100px, 100px, 100px;
-}
+
 
 @media only screen and (max-width : 320px){}
 @media only screen and (min-width : 320px) and (max-width: 480px){  
