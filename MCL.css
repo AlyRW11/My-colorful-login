@@ -5,10 +5,7 @@ header {
     font-size: 11pt;
     display: grid;
   }
-footer {
-    color:white;
-    min-height: 20px;
-}
+
 body{
 background: #aee6d6; /* Old browsers */
 background: -moz-linear-gradient(45deg, #aee6d6 0%, #75cebe 17%, #46c9b1 33%, #009996 57%, #0caab2 83%, #74ecf7 100%); /* FF3.6-15 */
@@ -28,7 +25,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', end
 
 .container {
   display: grid;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 200px 200px 200px;
   grid-template-rows: 100px 50px 50px 50px 50px 50px;
   padding: 2px 2px 2px 2px;
 }
@@ -71,16 +68,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', end
   grid-row-end: 5;
 }
 
-.buttons {
+.radio {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.button {
+  color: white;
+  width: 400px;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 6;
 }
 
-.button {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
+.btn {
+  background-color: rgba(6, 29, 92, 0.938);
+  border-color: rgba(6, 29, 92, 0.938);
+  color: white;
+  width: 600px;
+  height: 25px;
 }
