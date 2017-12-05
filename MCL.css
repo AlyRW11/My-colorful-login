@@ -8,11 +8,12 @@ header {
 
 body{
 background: #aee6d6; /* Old browsers */
-background: -moz-linear-gradient(45deg, #aee6d6 0%, #75cebe 17%, #46c9b1 33%, #009996 57%, #0caab2 83%, #74ecf7 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(45deg, #aee6d6 0%, #75cebe 17%, #46c9b1 33%, #009996 57%, #0caab2 83%, #74ecf7 100%)!important; /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%)!important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', endColorstr='#74ecf7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
+
 
 @media only screen and (max-width : 320px){
     
@@ -64,8 +65,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', end
   flex-direction: row;
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .radio {
@@ -90,4 +91,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', end
   color: white;
   width: 600px;
   height: 25px;
+  font-size: 12pt;
+  font-family: tahoma;
 }
