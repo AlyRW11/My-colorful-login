@@ -6,13 +6,6 @@ header {
     display: grid;
   }
 
-body{
-background: #aee6d6; /* Old browsers */
-background: -moz-linear-gradient(45deg, #aee6d6 0%, #75cebe 17%, #46c9b1 33%, #009996 57%, #0caab2 83%, #74ecf7 100%)!important; /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%)!important; /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', endColorstr='#74ecf7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  }
 
 
 @media only screen and (max-width : 320px){
@@ -25,20 +18,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', end
 }
 
 .container {
+  background: #aee6d6; /* Old browsers */
+background: -moz-linear-gradient(45deg, #aee6d6 0%, #75cebe 17%, #46c9b1 33%, #009996 57%, #0caab2 83%, #74ecf7 100%)!important; /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%)!important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #aee6d6 0%,#75cebe 17%,#46c9b1 33%,#009996 57%,#0caab2 83%,#74ecf7 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee6d6', endColorstr='#74ecf7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 
   display: grid;
-  grid-template-rows: repeat(4, 2fr);
+  grid-template-rows: repeat(4, 4fr);
+  grid-template-columns: repeat(2, 400px);
 }
 
 .head-item {
   display: grid flex;
   flex-direction: row-reverse;
   justify-content: center;
+  grid-column: 0;
+  grid-column-end: 2;
 }
 
 .first-last {
   display: flex;
   flex-direction: row;
   padding: 5px;
+  grid-column: 1;
+  grid-column-end: 2;
+  grid-row: 1;
+  grid-row-end: 2;
+}
 }
 
 .rest {
